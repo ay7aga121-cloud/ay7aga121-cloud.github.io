@@ -367,6 +367,15 @@ form ~ .banner div{
 form ~ .banner div:hover{
     background-color: #ff7088;
 }
+@media (max-width: 980px){
+    form ~ .banner{
+        width: 500px;
+        height: 400px !important;
+    }
+    form{
+        height: 600px;
+    }
+}
 /*********************************************** Contact Us ************************************/
 .contact-container{
     width: 70%;
